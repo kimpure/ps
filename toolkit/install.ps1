@@ -4,7 +4,6 @@ if (-not (Get-Command *nvm*)) {
 }
 
 # install phython
-
 if (-not (Get-Command *python*)) { 
     winget install -e --id Python.Python.3.11
 }
